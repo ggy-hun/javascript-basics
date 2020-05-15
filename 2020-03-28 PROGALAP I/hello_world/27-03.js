@@ -1,0 +1,11 @@
+const Feri = 12;
+const Geza = Feri - 5;
+const Mate = Math.round(Math.random() * 10) + 10;
+const max = 20;
+const me = '%';
+const me2 = 'pont';
+const osszes = Feri + Geza + Mate;
+console.log('Feri eredménye: ' + Feri + ' ' + me2 + ', azaz ' + Math.round((Feri / max) * 100) + ' ' + me);
+console.log('Geza eredménye: ' + Geza + ' ' + me2 + ', azaz ' + Math.round((Geza / max) * 100) + ' ' + me);
+console.log('Mate eredménye: ' + Mate + ' ' + me2 + ', azaz ' + Math.round((Mate / max) * 100) + ' ' + me);
+console.log('Mindannyiuk eredménye: ' + osszes + ' ' + me2 + ', azaz ' + Math.round((osszes / (max * 3)) * 100) + ' ' + me);

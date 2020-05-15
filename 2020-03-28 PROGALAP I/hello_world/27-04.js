@@ -1,0 +1,10 @@
+const macskalab = 4;
+const tyuklab = macskalab / 2;
+const poklab = macskalab * 2;
+const szazlab = Math.round(Math.random() * 30) + 20;
+const osszes = macskalab + tyuklab + poklab + szazlab;
+console.log('A macskának ennyi lába van: ', macskalab);
+console.log('A tyúknak ennyi lába van: ', tyuklab);
+console.log('A póknak ennyi lába van: ', poklab);
+console.log('A százlábúnak épp ennyi lába van: ', szazlab);
+console.log('Az állatainknak összesen ennyi lába van: ', osszes);

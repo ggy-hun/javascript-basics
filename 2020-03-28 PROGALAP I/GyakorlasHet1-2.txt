@@ -1,0 +1,26 @@
+*********************************1. Hét - Gyakorlás*********************************
+
+1) Alíz 18 éves. Boborján két évvel idõsebb, Csilla 5 évvel fiatalabb nála. Hány évesek hárman együtt? Készíts programot, ami kiszámolja és külön változóban tárolja mindegyikük életkorát. Írja ki egyenként, hogy ki hány éves (név és kor), majd kiírja a koraik összegét is.
+2) Bevásárlólista: vegyél 30 dkg almát, kétszer ennyi banánt, és háromszor ennyi citromot. Egy programmal számoltasd ki és külön változóban tárold el az egyes gyümölcsök mennyiségét. Írja ki egyenként, hogy melyik gyümölcsbõl hány dkg-ot kell vásárolni, és hogy ez összesen hány kg gyümölcs (itt figyelj az átváltásra!).
+3) A hõmérséklet ma már elérte az 5 Celsius fokot is, tök jó! De ez mennyi lett volna Kelvinben, vagy Fahrenheitben? Készíts programot, ami elvégzik neked az átváltásokat, és kiír minden információt.
+Az átváltás:
+kelvin = celsius + 273 
+fahrenheit = celsius x 18 / 10 + 32
+
+*********************************2. Hét - Gyakorlás*********************************
+1) Készíts programot, ami egy x és egy y változóban is egy 1-10 közötti véletlenszerû egész számot tárol. A program döntse el és írja ki, hogy melyik a nagyobb.
+2) Készíts programot, ami egy x és egy y változóban is egy 1-100 közötti véletlenszerû egész számot tárol. A program döntse el és írja ki, hogy x osztható -e y-al.
+3) Készíts programot, ami egy x változóban egy -100 és 100 közötti véletlenszerû egész számot tárol. A program döntse el és írja ki, hogy a tárolt szám páratlan -e.
+4) Készíts programot, ami egy x, y és z változóban is -50 és 50 közötti véletlenszerû egész számokat tárol. A program írja ki a tárolt számokat csökkenõ sorrendben, egy sorba.
+5) Készíts programot, ami 5 változóba 5 különbözõ véletlenszerû egész számot generál -110 és 320 között, és kiírja, hogy melyik közülük a legkisebb.
+6) Készíts programot, ami egy változóba is 0 és 200 közötti véletlenszerû egész számot generál. Ha a generált szám két számjegyû, akkor írja ki a számjegyeinek az összegét, és azt, hogy hány páros számjegye van.
+7) Készíts programot, ami 1 és 100 között kiírja az összes számot.
+8) Készíts programot, ami 1 és 100 között kiírja az PÁROS számot.
+9) Készíts programot, ami 1 és 100 között kiírja az PÁRATLAN számot.
+10) Készíts programot, ami 1 és 100 között kiírja 3 összes többszörösét.
+11) Készíts programot, ami 100 és 1 között csökkenõ sorban kiírja az összes számot.
+12) Készíts programot, ami az 5,10,15,20,25.... sorozat elemeit írja ki. Azt, hogy hány elem legyen kiírva, egy véletlenszerû egész számként generáld 1-10 között.
+13) Készíts programot, ami egy x változóba egy 1-3 közötti, egy y változóba pedig egy 5-10 közötti véletlenszerû egész számot tárol. A program írja ki a két szám között található összes számot. (x és y szerepeljen a kiírásban!)
+14) Készíts programot, ami egy x változóba egy 1-3 közötti, egy y változóba pedig egy 5-10 közötti véletlenszerû egész számot tárol. A program írja ki a két szám között található összes számot. (x és y NE szerepeljen a kiírásban!)
+15) Készíts programot, ami három változóban véletlenszerû egész számokat tárol. Az elsõ változóban 5-10 közöttit, a második változóban 1-4 közöttit, a harmadik változóban pedig 10-13 közöttit. A program írjon ki annyi véletlenszerûen generált egész számot, amennyi az elsõ változó értéke. Ezeket a kiírt számokat a második és a harmadik változóban található számok között generáld! (pl. elso: 5, masodik: 3, harmadik: 10 azt jelenti, hogy 5 random számot írj ki, amik 3-10 között vannak)
+16) Készíts programot, ami egy film mozijegyének az alapárát tárolja egy változóba (ez legyen egy véletlenszerû egész szám 1000 és 2000 között, DE csak olyan szám lehet az ár, ahol a tízesek és egyesek helyén 0 áll, pl 1234 Ft nem lehet a jegy, de 1200 vagy 1300 igen). Egy másik változóba tárold le azt is, hogy hány nézõje lesz a filmnek. Generálj annyi életkort (random egész számot) 1-99 között, ahány nézõ van, és minden nézõre mondd meg, hogy mennyibe fog neki kerülni a film: 5 év alatti gyerekek ingyen, 18 év alattiak és 65 év felettiek 50% kedvezménnyel, mindeki más alapáron nézi a filmet.
